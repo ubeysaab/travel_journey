@@ -1,0 +1,66 @@
+* { 
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+body {
+
+  width: 100dvw;
+  font-size: 0.8rem;
+}
+
+.jorneyCon {
+  width: 95%;
+
+  padding: 10px;
+  display: flex;
+  margin: 9px auto;
+  /* border: 1px solid red; */
+}
+
+.informations {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  /* justify-content: left; */
+  
+}
+
+.link {
+  margin-left: 20px;
+}
+
+
+.postImg {
+  width: 25%;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.textCon {
+  text-align: left;
+  padding: 10px;
+  
+}
+
+
+.title {
+  margin: 5px;
+}
+
+
+.date {
+  white-space: pre-wrap;
+  margin-bottom: 10px;
+}
+
+.logoCon {
+   /* border :1px solid red; */
+   width: 24px;
+   height: 24px;
+   background-image: url("../public/images/placeholder.png");
+   background-size: contain;
+}
+
+
